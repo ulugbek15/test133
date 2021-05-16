@@ -1,0 +1,357 @@
+    html, body, h1, h3, p, li, ul, {
+        margin: 0;
+        padding: 0;
+    }
+    h1:hover{
+        
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .blue h1 {
+        margin: 0;
+    }
+
+    #navbar {
+        border-bottom: 2px #666 solid ;
+        margin-bottom: 20px;
+    }
+    #navbar .container{
+        padding: 20px;
+    }
+
+    .container {
+        width: 70%;
+        margin: auto;
+    }
+
+    .container h1 {
+        display: inline-block;
+    }
+
+    .nav {
+        float: right;
+    }
+
+    .nav li {
+        display: inline;
+    }
+    .nav li a:active{
+        background-color:  #191919B2;
+        color: white;
+
+    }
+    .nav li a:{
+        cursor : pointer;
+        border-bottom : 2px solid #222;
+        
+    }
+
+    .nav li a {
+        text-decoration : none;
+        display : inline-block;
+        padding : 20px 15px;
+        
+    }
+    .btn:hover{
+        border-style: solid;
+        border-color:rgb(4,190,252) ;
+        background-color: white;
+        color: rgb(4, 190, 252);
+        
+        }
+    .btn:active{
+        background-color: #68daff;
+        color: white;
+        border-style: solid;
+        border-color: #68daff;
+    }
+        
+    .btn {
+        background-color :rgb(4, 190, 252);
+        border-radius : 5px;
+        border : none;
+        padding : 15px;
+        color : #fff;
+        cursor : pointer;
+    }
+
+    .box1 {
+        width: 50%;
+        float: left;
+    }
+
+    .box2 {
+        
+        width: 50%;
+        float: right;
+    }
+
+    .box2 img {
+        width: 70%;
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+    .clr {
+        clear: both;
+    }
+
+    .xizmatlar {
+        margin-top: 8%;
+    }
+
+    .cont {
+        width: 50%;
+        margin: auto;
+    }
+
+    .x {
+        text-align: center;
+    }
+
+    .card1 {
+        width: 30%;
+        float: left;
+        margin-right: 5%;
+    }
+
+    .card2 {
+        width: 30%;
+        float: left;
+        margin-right: 5%;
+    }
+
+    .card3 {
+        width: 30%;
+        float: left;
+    }
+
+    .c1 {
+        width: 45%;
+        float: left;
+        margin-right: 5%;
+    }
+
+    .c2 {
+        width: 45%;
+        float: left;
+    }
+
+    .co {
+        width: 30%;
+        margin: auto;
+    }
+
+    .co a {
+        color: rgb(4, 190, 252);
+        margin-left: 10px;
+    }
+
+    .cen .cont {
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .s {
+        width: 60%;
+        margin: auto;
+    }
+        
+    .cen1 {
+        width: 40%;
+        float: left;
+    } 
+
+    .cen2 {
+        width: 60%;
+        float: left;
+        margin-top: 10%;
+    }
+
+    .q .cen1 {
+        width: 60%;
+        float: left;
+        margin-top: 10%;
+    }
+
+    .q .cen2 {
+        width: 40%;
+        float: left;
+    }
+
+    .q3 .cen1 {
+        width: 60%;
+        float: left;
+        margin-top: 15%;
+    }
+
+    .q3 .cen2 {
+        width: 40%;
+        float: left;
+    }
+
+    .q4 .cen1 {
+        margin-top: 5%;
+    }
+
+    .q4 .cen2 {
+        margin-top: 15%;
+    }
+
+    .cen .btn {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+
+    .blue {
+        background-color: rgb(4, 190, 252);
+        color: #fff;
+        margin-top: 5%;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 20px;
+    }
+
+    .blue p {
+        padding: 20px;
+    }
+
+    .blue .co {
+        background-color: #fff;
+        padding: 20px 5px;
+        border-radius: 10px;
+    }
+
+    .blue input {
+        width: 80%;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(218, 211, 211);
+        color: #000;
+        font-family: bold;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .blue select {
+        width: 80%;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(218, 211, 211);
+        color: #111;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .blue button {
+        margin-top: 10px;
+    }
+
+    .footer{
+        background-color: #191919;
+    }
+    .quti{
+        min-width: 1170px;
+        background-color: #191919;
+        margin: auto;
+        color: #fff;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+
+        
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    *{
+        
+        margin : 0;
+        padding : 3px;
+        box-sizing : border-box;
+    }
+    .footer-cool a:active{
+        color: red;
+    }
+    .footer-cool a:hover{
+        color: #00BAFC;
+    }
+    .footer-cool {
+        width: 28%;
+        padding: 46px;
+        float: left;
+    }
+    .footer-cool a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .social1{
+        display: block;
+        }
+        /*drop down */
+
+
+
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    }
+
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    /*  right: 13%;*/
+    left: 5%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+    }
+
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    /*padding-right: 15px;
+    padding-left: 15px;*/
+    }
+
+
+    .dropdown:hover .dropdown-content {display: block;}
+    .id:hover{
+        background-color: #00BAFC;
+        color: white;
+    }
+    .id:active{
+        background-color: #68daff;
+        color: #fff;
+    }
+    .footer-cool a:active{
+        color: #68daff;
+    }
+    .btn a:hover{
+        
+    }
